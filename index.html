@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>TDE Calendar</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+
+  <p>
+    Drag the list to the calendar. <br>
+    Drag back to the list if needed to.<br>
+    Click on the list to delete.<br>
+  </p>
+
+  <div class="container">
+
+    <div class="calender-container">
+      <div id="calendar"></div>
+    </div>
+
+    <div class="dos-container" id="dos-container">
+      <h3 class="dos-title">Events & Todos List</h3>
+      <div class="dos-table">
+        <div class="form-add-dos" id="form-add-dos">
+          <label for="add-dos" class="label-add-dos">
+          <input type="text" name="add-dos" id="add-dos" class="add-dos" placeholder="Add new list...">
+          <span><i class="material-icons">keyboard_return</i></span>
+          </label>
+        </div>
+
+        <div id="form-dos-list">
+          <ul id="dos-list"></ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="clearfix"></div>
+  </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.1/moment.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+
+</html>

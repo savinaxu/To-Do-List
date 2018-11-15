@@ -1,0 +1,105 @@
+body {
+  background: #FC5C7D;
+  background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);
+  background: linear-gradient(to right, #6A82FB, #FC5C7D);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  width: 90%;
+  display: flex;
+  margin: 5% auto;
+  justify-content: space-between;
+  resize: both;
+  background: linear-gradient(
+    to right,
+    #ffffff 0%,
+    #ffffff 68%,
+    #222222 50%,
+    #222222 100%
+  );
+  padding: 0;
+  box-shadow: 11px 13px 20px 4px black;
+}
+
+.calender-container {
+  flex: 2;
+  resize: both;
+}
+
+.dos-container {
+  flex: 1;
+  margin: 0 0 0 5%;
+}
+
+#calendar {
+  margin: 5% 0 5% 8%;
+}
+
+.dos-title {
+  color: #ff5252;
+  text-align: center;
+  margin: 10% auto;
+}
+
+.dos-table {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 15%;
+}
+
+.add-dos {
+  border: 0;
+  padding: 4px 0;
+  background-color: transparent;
+  color: white;
+}
+
+.add-dos:focus {
+  outline: none
+}
+
+.add-dos:focus::-webkit-input-placeholder {
+  transition: opacity 0.5s 0.5s ease;
+  opacity: 0;
+}
+
+label.label-add-dos {
+  border-bottom: 1px solid #cccccc;
+}
+
+.material-icons{
+  color: #878787;
+  vertical-align: text-bottom;
+}
+
+.form-add-dos {
+  margin: 5% 0;
+}
+
+ul {
+  list-style: none;
+  color: white;
+}
+
+.dos-list-item {
+  color: white;
+  padding: 5px 0;
+}
+
+.completed {
+	color: grey;
+	text-decoration: line-through;
+}
+
+.clearfix {
+  clear: both;
+}
+
+p {
+  width: 90%;
+  margin: 5% 0 5% 10%;
+  color: white;
+
+}
